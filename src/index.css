@@ -1,0 +1,155 @@
+@import 'tailwindcss';
+
+/*
+ * RIMBANARA admin theme.
+ * Light theme only (PRD §8.2 forbids dark mode). Deep forest green is used for
+ * navigation and accents, warm cream for surfaces, so the panel feels calm and
+ * consistent with the mobile app without introducing a dark theme.
+ */
+@theme {
+  --font-sans:
+    ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+
+  --color-brand-50: #f1f7ef;
+  --color-brand-100: #dfeeda;
+  --color-brand-200: #c1ddb8;
+  --color-brand-300: #98c48c;
+  --color-brand-400: #6fa862;
+  --color-brand-500: #4e8a42;
+  --color-brand-600: #3a6f31;
+  --color-brand-700: #2f5928;
+  --color-brand-800: #284723;
+  --color-brand-900: #223b1f;
+  --color-brand-950: #10240f;
+
+  --color-cream-50: #fbfaf6;
+  --color-cream-100: #f5f2e8;
+  --color-cream-200: #ebe6d8;
+  --color-cream-300: #ddd5c1;
+
+  --color-clay-50: #fdf4ee;
+  --color-clay-100: #f9e5d7;
+  --color-clay-500: #c2703f;
+  --color-clay-600: #a75a2e;
+  --color-clay-700: #854725;
+
+  --shadow-panel: 0 1px 2px rgb(16 36 15 / 0.04), 0 8px 24px -16px rgb(16 36 15 / 0.18);
+  --shadow-float: 0 18px 48px -24px rgb(16 36 15 / 0.35);
+}
+
+/* Light theme only (PRD §8.2 forbids dark mode). */
+html {
+  color-scheme: light;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-cream-50);
+  color: #292524;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background-color: #cfe3c8;
+  color: #10240f;
+}
+
+/* Visible, consistent keyboard focus for links and buttons. */
+button:focus-visible,
+a:focus-visible,
+[role='switch']:focus-visible {
+  outline: 2px solid var(--color-brand-600);
+  outline-offset: 2px;
+}
+
+/* Thin, unobtrusive scrollbars for the sidebar and multi-selects. */
+.scroll-slim {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-cream-300) transparent;
+}
+
+@keyframes rimbanara-rise {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes rimbanara-fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes rimbanara-toast {
+  from {
+    opacity: 0;
+    transform: translateY(10px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes rimbanara-shimmer {
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.animate-rise {
+  animation: rimbanara-rise 0.4s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.animate-fade {
+  animation: rimbanara-fade 0.2s ease-out both;
+}
+
+.animate-toast {
+  animation: rimbanara-toast 0.28s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+/* Subtle skeleton shimmer used by tables and cards. */
+.skeleton {
+  position: relative;
+  overflow: hidden;
+  background-color: var(--color-cream-200);
+}
+
+.skeleton::after {
+  position: absolute;
+  inset: 0;
+  content: '';
+  transform: translateX(-100%);
+  background-image: linear-gradient(
+    90deg,
+    rgb(255 255 255 / 0) 0,
+    rgb(255 255 255 / 0.65) 60%,
+    rgb(255 255 255 / 0) 100%
+  );
+  animation: rimbanara-shimmer 1.4s infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .animate-rise,
+  .animate-fade,
+  .animate-toast,
+  .skeleton::after {
+    animation: none;
+  }
+}

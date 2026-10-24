@@ -1,0 +1,484 @@
+{
+  "wildlife": [
+    {
+      "name": "Orangutan Sumatera",
+      "scientificName": "Pongo abelii",
+      "type": "Mamalia",
+      "region": "Sumatera",
+      "province": "Aceh",
+      "habitat": "Hutan hujan tropis dataran rendah hingga hutan pegunungan",
+      "characteristics": "Primata besar dengan rambut cokelat kemerahan, lengan sangat panjang, dan wajah tanpa bulu. Sebagian besar hidup di pepohonan dan hidup soliter.",
+      "description": "Orangutan Sumatera adalah kera besar endemik bagian utara Pulau Sumatera. Populasinya terkonsentrasi di Ekosistem Leuser. Hilangnya hutan akibat pembukaan lahan menjadi ancaman utama bagi kelangsungan hidupnya.",
+      "conservationStatus": "CR",
+      "funFact": "Orangutan adalah satu-satunya kera besar yang hidup di Asia. Orangutan Sumatera merupakan salah satu dari tiga spesies orangutan yang masih ada.",
+      "imageUrl": "",
+      "galleryUrls": [],
+      "locations": [
+        {
+          "label": "Ekosistem Leuser, Aceh",
+          "lat": 3.6,
+          "lng": 97.3
+        }
+      ],
+      "relatedForestIds": [],
+      "isPublished": true
+    },
+    {
+      "name": "Harimau Sumatera",
+      "scientificName": "Panthera tigris sumatrae",
+      "type": "Mamalia",
+      "region": "Sumatera",
+      "province": "Sumatera Barat",
+      "habitat": "Hutan hujan dataran rendah sampai pegunungan",
+      "characteristics": "Subspesies harimau terkecil yang masih hidup, dengan loreng rapat dan rambut agak panjang di pipi serta tengkuk.",
+      "description": "Harimau Sumatera adalah satu-satunya subspesies harimau yang masih bertahan di Indonesia setelah harimau Jawa dan harimau Bali dinyatakan punah. Populasinya menurun akibat perburuan dan fragmentasi hutan.",
+      "conservationStatus": "CR",
+      "funFact": "Loreng harimau berbeda pada setiap individu, sehingga peneliti dapat mengenali harimau dari pola lorengnya seperti sidik jari.",
+      "imageUrl": "",
+      "galleryUrls": [],
+      "locations": [
+        {
+          "label": "Taman Nasional Kerinci Seblat",
+          "lat": -2.4,
+          "lng": 101.5
+        }
+      ],
+      "relatedForestIds": [],
+      "isPublished": true
+    },
+    {
+      "name": "Badak Jawa",
+      "scientificName": "Rhinoceros sondaicus",
+      "type": "Mamalia",
+      "region": "Jawa",
+      "province": "Banten",
+      "habitat": "Hutan hujan dataran rendah dan padang semak dekat pantai",
+      "characteristics": "Badak bercula satu dengan kulit berlipat seperti perisai. Cula jantan umumnya lebih besar daripada cula betina.",
+      "description": "Badak Jawa merupakan mamalia besar paling langka di dunia. Seluruh populasinya yang tersisa hidup di Taman Nasional Ujung Kulon, sehingga sangat rentan terhadap penyakit dan bencana alam.",
+      "conservationStatus": "CR",
+      "funFact": "Populasi badak Jawa diperkirakan kurang dari 100 individu dan semuanya berada dalam satu kawasan konservasi.",
+      "imageUrl": "",
+      "galleryUrls": [],
+      "locations": [
+        {
+          "label": "Taman Nasional Ujung Kulon, Banten",
+          "lat": -6.75,
+          "lng": 105.33
+        }
+      ],
+      "relatedForestIds": [],
+      "isPublished": true
+    },
+    {
+      "name": "Komodo",
+      "scientificName": "Varanus komodoensis",
+      "type": "Reptil",
+      "region": "Bali & Nusa Tenggara",
+      "province": "Nusa Tenggara Timur",
+      "habitat": "Padang savana kering dan hutan muson",
+      "characteristics": "Kadal terbesar di dunia dengan kulit bersisik, cakar kuat, dan lidah bercabang yang digunakan untuk mendeteksi bau.",
+      "description": "Komodo hanya ditemukan secara alami di Pulau Komodo, Rinca, Flores, dan beberapa pulau kecil di sekitarnya. Satwa ini dilindungi dan menjadi bagian dari Taman Nasional Komodo.",
+      "conservationStatus": "EN",
+      "funFact": "Komodo dapat mendeteksi bangkai dari jarak beberapa kilometer dengan bantuan indra penciumannya yang tajam.",
+      "imageUrl": "",
+      "galleryUrls": [],
+      "locations": [
+        {
+          "label": "Pulau Komodo, Nusa Tenggara Timur",
+          "lat": -8.55,
+          "lng": 119.45
+        }
+      ],
+      "relatedForestIds": [],
+      "isPublished": true
+    },
+    {
+      "name": "Maleo",
+      "scientificName": "Macrocephalon maleo",
+      "type": "Burung",
+      "region": "Sulawesi",
+      "province": "Sulawesi Tengah",
+      "habitat": "Hutan hujan dataran rendah dekat pantai, sumber air panas, dan bukit pasir",
+      "characteristics": "Burung berukuran sedang dengan kepala berbentuk khas, kulit wajah tanpa bulu, serta telur yang berukuran besar dibanding tubuhnya.",
+      "description": "Maleo adalah burung endemik Sulawesi yang tidak mengerami telurnya. Telur dikubur di pasir atau tanah hangat, lalu anak burung menggali sendiri keluar setelah menetas.",
+      "conservationStatus": "EN",
+      "funFact": "Anak maleo sudah mampu terbang hampir segera setelah keluar dari pasir, tanpa diasuh induknya.",
+      "imageUrl": "",
+      "galleryUrls": [],
+      "locations": [
+        {
+          "label": "Sulawesi Tengah",
+          "lat": 0.9,
+          "lng": 120.3
+        }
+      ],
+      "relatedForestIds": [],
+      "isPublished": true
+    },
+    {
+      "name": "Cendrawasih Kuning Besar",
+      "scientificName": "Paradisaea apoda",
+      "type": "Burung",
+      "region": "Papua",
+      "province": "Papua Selatan",
+      "habitat": "Hutan hujan dataran rendah",
+      "characteristics": "Burung jantan memiliki bulu kuning keemasan, bulu hias di sisi tubuh, dan dua tali ekor yang panjang. Betina berwarna cokelat kusam.",
+      "description": "Cendrawasih dikenal karena tarian dan pameran bulu burung jantan untuk menarik betina. Perdagangan bulu pada masa lalu menjadi ancaman, kini digantikan oleh hilangnya hutan.",
+      "conservationStatus": "LC",
+      "funFact": "Burung jantan berkumpul di satu tempat untuk menampilkan tarian secara bergantian, sebuah perilaku yang disebut lek.",
+      "imageUrl": "",
+      "galleryUrls": [],
+      "locations": [
+        {
+          "label": "Dataran rendah Papua Selatan",
+          "lat": -5.5,
+          "lng": 138.0
+        }
+      ],
+      "relatedForestIds": [],
+      "isPublished": true
+    },
+    {
+      "name": "Pesut Mahakam",
+      "scientificName": "Orcaella brevirostris",
+      "type": "Mamalia",
+      "region": "Kalimantan",
+      "province": "Kalimantan Timur",
+      "habitat": "Sungai dan perairan estuari",
+      "characteristics": "Lumba-lumba air tawar dengan kepala bulat, tidak berparuh panjang, dan sirip punggung kecil berbentuk segitiga.",
+      "description": "Populasi pesut di Sungai Mahakam merupakan populasi lumba-lumba air tawar di Indonesia yang jumlahnya terus menurun akibat polusi, lalu lintas kapal, dan rusaknya habitat sungai.",
+      "conservationStatus": "EN",
+      "funFact": "Pesut Mahakam hidup di air tawar dan tidak pernah bermigrasi ke laut.",
+      "imageUrl": "",
+      "galleryUrls": [],
+      "locations": [
+        {
+          "label": "Sungai Mahakam, Kalimantan Timur",
+          "lat": -0.5,
+          "lng": 117.0
+        }
+      ],
+      "relatedForestIds": [],
+      "isPublished": true
+    },
+    {
+      "name": "Anoa Dataran Rendah",
+      "scientificName": "Bubalus depressicornis",
+      "type": "Mamalia",
+      "region": "Sulawesi",
+      "province": "Sulawesi Tenggara",
+      "habitat": "Hutan hujan dataran rendah",
+      "characteristics": "Kerbau liar bertubuh kecil dengan tanduk pendek mengarah ke belakang dan rambut tipis berwarna cokelat gelap.",
+      "description": "Anoa merupakan hewan endemik Sulawesi yang sering menjadi korban perburuan untuk daging dan tengkoraknya. Kehilangan hutan juga mempersempit wilayah jelajahnya.",
+      "conservationStatus": "EN",
+      "funFact": "Anoa termasuk sapi liar terkecil di dunia, dengan tinggi bahu hanya sekitar satu meter.",
+      "imageUrl": "",
+      "galleryUrls": [],
+      "locations": [
+        {
+          "label": "Sulawesi Tenggara",
+          "lat": -3.5,
+          "lng": 121.5
+        }
+      ],
+      "relatedForestIds": [],
+      "isPublished": true
+    },
+    {
+      "name": "Kakatua Koki",
+      "scientificName": "Cacatua galerita",
+      "type": "Burung",
+      "region": "Papua",
+      "province": "Papua",
+      "habitat": "Hutan hujan, hutan sekunder, dan tepi lahan pertanian",
+      "characteristics": "Kakatua putih berukuran besar dengan jambul kuning yang dapat ditegakkan serta paruh bengkok yang kuat.",
+      "description": "Kakatua koki hidup berkelompok dan memakan biji, buah, serta kuncup bunga. Di Indonesia burung ini dijumpai di bagian selatan Pulau Papua.",
+      "conservationStatus": "LC",
+      "funFact": "Jambul kuningnya ditegakkan saat burung merasa terkejut atau tertarik, sehingga sering dipakai untuk berkomunikasi.",
+      "imageUrl": "",
+      "galleryUrls": [],
+      "locations": [
+        {
+          "label": "Merauke, Papua",
+          "lat": -8.5,
+          "lng": 140.4
+        }
+      ],
+      "relatedForestIds": [],
+      "isPublished": true
+    }
+  ],
+  "forests": [
+    {
+      "name": "Taman Nasional Gunung Leuser",
+      "forestType": "Hutan Hujan Tropis",
+      "protectionStatus": "Taman Nasional",
+      "region": "Sumatera",
+      "province": "Aceh",
+      "description": "Taman Nasional Gunung Leuser merupakan salah satu kawasan konservasi terbesar di Asia Tenggara dan bagian dari Situs Warisan Dunia Tropical Rainforest Heritage of Sumatra. Kawasan ini menjadi habitat orangutan Sumatera, harimau Sumatera, dan badak Sumatera.",
+      "characteristics": "Mencakup hutan hujan dataran rendah hingga pegunungan tinggi, dengan sungai-sungai deras dan keanekaragaman hayati yang sangat tinggi.",
+      "flora": ["Meranti", "Kantung semar", "Rafflesia"],
+      "imageUrl": "",
+      "galleryUrls": [],
+      "locations": [
+        {
+          "label": "Gunung Leuser, Aceh",
+          "lat": 3.6,
+          "lng": 97.3
+        }
+      ],
+      "relatedWildlifeIds": [],
+      "isPublished": true
+    },
+    {
+      "name": "Taman Nasional Ujung Kulon",
+      "forestType": "Hutan Hujan Tropis",
+      "protectionStatus": "Taman Nasional",
+      "region": "Jawa",
+      "province": "Banten",
+      "description": "Taman Nasional Ujung Kulon terletak di ujung barat Pulau Jawa dan merupakan habitat terakhir badak Jawa. Kawasan ini juga mencakup hutan pantai, padang rumput, dan perairan laut yang dilindungi.",
+      "characteristics": "Perpaduan hutan hujan dataran rendah, hutan pantai, dan savana, dengan curah hujan tinggi sepanjang tahun.",
+      "flora": ["Merbau", "Bambu", "Rotan"],
+      "imageUrl": "",
+      "galleryUrls": [],
+      "locations": [
+        {
+          "label": "Ujung Kulon, Banten",
+          "lat": -6.75,
+          "lng": 105.33
+        }
+      ],
+      "relatedWildlifeIds": [],
+      "isPublished": true
+    },
+    {
+      "name": "Taman Nasional Tanjung Puting",
+      "forestType": "Hutan Rawa Gambut",
+      "protectionStatus": "Taman Nasional",
+      "region": "Kalimantan",
+      "province": "Kalimantan Tengah",
+      "description": "Taman Nasional Tanjung Puting dikenal sebagai kawasan konservasi orangutan Kalimantan dan bekantan. Sebagian besar kawasannya berupa hutan rawa gambut dan hutan kerangas.",
+      "characteristics": "Tanah gambut yang tebal, air berwarna gelap, dan hutan yang tergenang pada musim hujan.",
+      "flora": ["Ramin", "Jelutung", "Punak"],
+      "imageUrl": "",
+      "galleryUrls": [],
+      "locations": [
+        {
+          "label": "Tanjung Puting, Kalimantan Tengah",
+          "lat": -2.74,
+          "lng": 111.9
+        }
+      ],
+      "relatedWildlifeIds": [],
+      "isPublished": true
+    },
+    {
+      "name": "Taman Nasional Komodo",
+      "forestType": "Hutan Muson",
+      "protectionStatus": "Taman Nasional",
+      "region": "Bali & Nusa Tenggara",
+      "province": "Nusa Tenggara Timur",
+      "description": "Taman Nasional Komodo melindungi komodo beserta habitat savana dan perairan di sekitarnya. Kawasan ini juga merupakan Situs Warisan Dunia dan tujuan wisata alam utama Indonesia.",
+      "characteristics": "Iklim kering dengan savana, bukit berbatu, dan hutan muson yang menggugurkan daun pada musim kemarau.",
+      "flora": ["Lontar", "Asam", "Bakau"],
+      "imageUrl": "",
+      "galleryUrls": [],
+      "locations": [
+        {
+          "label": "Pulau Komodo, Nusa Tenggara Timur",
+          "lat": -8.55,
+          "lng": 119.45
+        }
+      ],
+      "relatedWildlifeIds": [],
+      "isPublished": true
+    }
+  ],
+  "articles": [
+    {
+      "title": "Mengapa Hutan Hujan Tropis Penting bagi Kehidupan",
+      "summary": "Hutan tropis menyimpan karbon, menjaga sumber air, dan menjadi rumah bagi jutaan makhluk hidup.",
+      "content": "Hutan hujan tropis Indonesia termasuk yang terluas di dunia. Di dalamnya hidup ribuan jenis tumbuhan, burung, mamalia, reptil, dan serangga yang saling bergantung satu sama lain.\n\nHutan menyimpan karbon dalam jumlah besar. Ketika hutan ditebang atau dibakar, karbon yang tersimpan dilepas kembali ke atmosfer sehingga mempercepat perubahan iklim.\n\nHutan juga menjaga sumber air. Akar pohon dan lapisan gambut menahan air hujan, mengurangi risiko banjir pada musim hujan, dan menyimpan cadangan air pada musim kemarau.\n\nMelindungi hutan tidak berarti menutup akses bagi masyarakat. Pengelolaan hutan berbasis masyarakat, penanaman kembali lahan rusak, dan pencegahan pembukaan lahan dengan api dapat menjaga hutan tetap utuh sekaligus memberi manfaat ekonomi.",
+      "category": "Pelestarian Hutan",
+      "coverImageUrl": "",
+      "author": "Tim RIMBANARA",
+      "readMinutes": 4,
+      "isPublished": true
+    },
+    {
+      "title": "Upaya Penyelamatan Badak Jawa di Ujung Kulon",
+      "summary": "Seluruh populasi badak Jawa bergantung pada satu kawasan, sehingga pemantauan dan perlindungan habitat menjadi sangat penting.",
+      "content": "Badak Jawa hanya ditemukan di Taman Nasional Ujung Kulon. Populasinya diperkirakan kurang dari 100 individu, menjadikannya salah satu mamalia besar paling langka di dunia.\n\nKarena hidup dalam satu kawasan, badak Jawa rentan terhadap penyakit, bencana alam, dan gangguan habitat. Persaingan dengan tumbuhan invasif seperti langkap juga mengurangi ketersediaan pakan alami.\n\nUpaya penyelamatan dilakukan melalui patroli rutin, pemantauan kamera jebakan, pengendalian tumbuhan invasif, dan penjagaan ketat terhadap perburuan. Rencana pemindahan sebagian individu ke kawasan lain terus dikaji sebagai langkah mengurangi risiko.\n\nDukungan masyarakat sekitar kawasan, terutama dalam melaporkan gangguan dan tidak merusak habitat, menjadi bagian penting dari upaya ini.",
+      "category": "Perlindungan Satwa",
+      "coverImageUrl": "",
+      "author": "Tim RIMBANARA",
+      "readMinutes": 3,
+      "isPublished": true
+    },
+    {
+      "title": "Mengenal Status Konservasi IUCN",
+      "summary": "Delapan kategori IUCN membantu kita memahami seberapa besar risiko kepunahan sebuah spesies.",
+      "content": "Daftar Merah IUCN (International Union for Conservation of Nature) menilai risiko kepunahan spesies menggunakan beberapa kategori.\n\nLC (Least Concern) berarti risiko kepunahan rendah. NT (Near Threatened) berarti hampir terancam. VU (Vulnerable) berarti rentan, EN (Endangered) berarti terancam, dan CR (Critically Endangered) berarti terancam kritis.\n\nEW (Extinct in the Wild) berarti punah di alam liar tetapi masih bertahan di penangkaran. EX (Extinct) berarti punah. DD (Data Deficient) berarti data yang tersedia belum cukup untuk menilai statusnya.\n\nStatus konservasi dapat berubah ketika data populasi baru tersedia atau ketika ancaman berkurang. Karena itu, pemantauan populasi dan habitat secara berkelanjutan menjadi kunci dalam upaya pelestarian.",
+      "category": "Edukasi Umum",
+      "coverImageUrl": "",
+      "author": "Tim RIMBANARA",
+      "readMinutes": 3,
+      "isPublished": true
+    }
+  ],
+  "quizQuestions": [
+    {
+      "question": "Hutan yang tumbuh di wilayah pasang-surut air laut disebut...",
+      "options": ["Hutan mangrove", "Hutan rawa gambut", "Hutan muson", "Hutan pegunungan"],
+      "correctIndex": 0,
+      "explanation": "Hutan mangrove tumbuh di daerah pasang-surut air laut, terutama di pesisir berlumpur yang terlindung dari gelombang besar.",
+      "topic": "Hutan",
+      "difficulty": "Mudah",
+      "isPublished": true
+    },
+    {
+      "question": "Fungsi utama hutan mangrove di kawasan pesisir adalah...",
+      "options": [
+        "Menahan abrasi dan gelombang laut",
+        "Menjadi lahan pertanian",
+        "Menurunkan suhu udara dalam ruangan",
+        "Menghasilkan air tanah"
+      ],
+      "correctIndex": 0,
+      "explanation": "Akar mangrove menahan sedimen dan mengurangi energi gelombang, sehingga membantu mencegah abrasi pantai.",
+      "topic": "Hutan",
+      "difficulty": "Mudah",
+      "isPublished": true
+    },
+    {
+      "question": "Hutan rawa gambut terbentuk dari...",
+      "options": [
+        "Tumpukan sisa tumbuhan yang terurai sangat lambat",
+        "Endapan pasir dari aliran sungai",
+        "Sisa letusan gunung berapi",
+        "Pengendapan garam di pesisir"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gambut terbentuk dari sisa tumbuhan yang menumpuk di kondisi basah dan rendah oksigen, sehingga penguraiannya berlangsung sangat lambat.",
+      "topic": "Hutan",
+      "difficulty": "Sedang",
+      "isPublished": true
+    },
+    {
+      "question": "Mengapa hutan hujan tropis berperan penting dalam pengendalian iklim?",
+      "options": [
+        "Karena menyerap karbon dalam jumlah besar",
+        "Karena memantulkan seluruh sinar matahari",
+        "Karena menghasilkan hujan buatan",
+        "Karena tidak pernah kehilangan daun"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hutan menyimpan karbon di biomassa dan tanah. Jika hutan hilang, karbon tersebut terlepas ke atmosfer dan mempercepat pemanasan global.",
+      "topic": "Hutan",
+      "difficulty": "Sedang",
+      "isPublished": true
+    },
+    {
+      "question": "Status konservasi Komodo menurut IUCN adalah...",
+      "options": ["EN (Endangered)", "CR (Critically Endangered)", "VU (Vulnerable)", "LC (Least Concern)"],
+      "correctIndex": 0,
+      "explanation": "Komodo masuk kategori EN (Endangered) setelah penilaian ulang pada 2021 akibat ancaman kenaikan permukaan laut dan hilangnya habitat.",
+      "topic": "Satwa",
+      "difficulty": "Sedang",
+      "isPublished": true
+    },
+    {
+      "question": "Badak Jawa (Rhinoceros sondaicus) saat ini hanya hidup di...",
+      "options": [
+        "Taman Nasional Ujung Kulon",
+        "Taman Nasional Komodo",
+        "Taman Nasional Tanjung Puting",
+        "Taman Nasional Gunung Leuser"
+      ],
+      "correctIndex": 0,
+      "explanation": "Seluruh populasi badak Jawa yang tersisa berada di Taman Nasional Ujung Kulon, Provinsi Banten.",
+      "topic": "Satwa",
+      "difficulty": "Mudah",
+      "isPublished": true
+    },
+    {
+      "question": "Ciri khas Orangutan Sumatera adalah...",
+      "options": [
+        "Rambut cokelat kemerahan dan lengan panjang",
+        "Bulu hitam putih dan paruh bengkok",
+        "Sisik tebal dan cakar besar",
+        "Tanduk pendek mengarah ke belakang"
+      ],
+      "correctIndex": 0,
+      "explanation": "Orangutan Sumatera memiliki rambut cokelat kemerahan dan lengan yang sangat panjang untuk bergerak di antara pepohonan.",
+      "topic": "Satwa",
+      "difficulty": "Mudah",
+      "isPublished": true
+    },
+    {
+      "question": "Maleo adalah burung endemik dari pulau...",
+      "options": ["Sulawesi", "Sumatera", "Papua", "Kalimantan"],
+      "correctIndex": 0,
+      "explanation": "Maleo (Macrocephalon maleo) hanya hidup di Sulawesi dan dikenal karena mengubur telurnya di pasir atau tanah hangat.",
+      "topic": "Satwa",
+      "difficulty": "Mudah",
+      "isPublished": true
+    },
+    {
+      "question": "Apa kepanjangan dari IUCN?",
+      "options": [
+        "International Union for Conservation of Nature",
+        "International Unit for Climate and Nature",
+        "Indonesian Union for Conservation of Nature",
+        "International Union for Coastal and National parks"
+      ],
+      "correctIndex": 0,
+      "explanation": "IUCN adalah organisasi internasional yang menyusun Daftar Merah spesies terancam, yaitu International Union for Conservation of Nature.",
+      "topic": "Umum",
+      "difficulty": "Mudah",
+      "isPublished": true
+    },
+    {
+      "question": "Kategori IUCN \"CR\" berarti...",
+      "options": [
+        "Critically Endangered, terancam kritis",
+        "Conservation Reserve, cagar alam",
+        "Common Resource, sumber daya umum",
+        "Controlled Reproduction, penangkaran terkendali"
+      ],
+      "correctIndex": 0,
+      "explanation": "CR adalah singkatan dari Critically Endangered, tingkat risiko kepunahan tertinggi untuk spesies yang masih hidup di alam.",
+      "topic": "Umum",
+      "difficulty": "Sedang",
+      "isPublished": true
+    },
+    {
+      "question": "Sikap yang paling tepat ketika bertemu satwa dilindungi di alam liar adalah...",
+      "options": [
+        "Mengamati dari jarak aman tanpa memberi makan",
+        "Memberi makan agar satwa mendekat",
+        "Mendekat untuk berfoto bersama",
+        "Menangkap untuk dipelihara"
+      ],
+      "correctIndex": 0,
+      "explanation": "Memberi makan satwa liar dapat mengubah perilakunya dan membahayakan manusia maupun satwa. Pengamatan dari jarak aman adalah pilihan terbaik.",
+      "topic": "Umum",
+      "difficulty": "Mudah",
+      "isPublished": true
+    },
+    {
+      "question": "Salah satu taman nasional yang termasuk Situs Warisan Dunia Tropical Rainforest Heritage of Sumatra adalah...",
+      "options": [
+        "Taman Nasional Gunung Leuser",
+        "Taman Nasional Ujung Kulon",
+        "Taman Nasional Komodo",
+        "Taman Nasional Tanjung Puting"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tropical Rainforest Heritage of Sumatra terdiri dari Taman Nasional Gunung Leuser, Kerinci Seblat, dan Bukit Barisan Selatan.",
+      "topic": "Umum",
+      "difficulty": "Sulit",
+      "isPublished": true
+    }
+  ]
+}
